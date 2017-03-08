@@ -1,0 +1,22 @@
+{
+  "name": "in-text-citations-parser",
+  "version": "1.0.0",
+  "description": "Extract inline citations from stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "in-text",
+    "in",
+    "text",
+    "inline",
+    "citation",
+    "parse",
+    "parser",
+    "extract",
+    "stream"
+  ],
+  "author": "Sergey N <mrauhu@yandex.ru>",
+  "license": "Apache-2.0"
+}
