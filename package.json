@@ -8,15 +8,17 @@
   },
   "keywords": [
     "in-text",
-    "in",
-    "text",
     "inline",
     "citation",
     "parse",
     "parser",
     "extract",
+    "extractor",
     "stream"
   ],
   "author": "Sergey N <mrauhu@yandex.ru>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "easyxml": "^2.0.1"
+  }
 }
