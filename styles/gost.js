@@ -1,6 +1,6 @@
 'use strict';
 /**
- * GOST citation style,
+ * GOST citation style RegExp and normalize rules
  * example: [1]
  * @type {*}
  */
