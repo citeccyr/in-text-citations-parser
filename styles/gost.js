@@ -27,15 +27,19 @@ module.exports = {
      */
     list: function (str) {
       // split and make list with elements
-      return str.split(',')
+      let list = str.split(',')
         .map((item) => {
           return item.trim();
         });
+      console.log('[styles/gost.js] list()', list);
+      return list.length > 1
+        ? list[0]
+        : list;
     },
 
     /**
      * Convert range from `'1-3'` to `[1, 2, 3]`
-     * @param {string} str
+     * @param {string|string[]} str
      * @returns {string[]}
      */
     range: function (str) {
@@ -53,10 +57,13 @@ module.exports = {
       start = parseInt( start );
       end = parseInt( end );
 
+      console.log('[styles/gost.js] start, end', start, end);
+
       let list = [];
       for (; start <= end; start++) {
         list.push(start);
       }
+      console.log('[styles/gost.js] range()', list);
       return list;
     }
   }
