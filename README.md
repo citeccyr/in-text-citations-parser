@@ -17,7 +17,7 @@ Use it with [pdf-stream](https://www.npmjs.com/package/pdf-stream) module.
 ## Install
 
 ```
-  npm install in-text-citations-parser
+  npm i in-text-citations-parser --save
 ```
 
 ## Usage
